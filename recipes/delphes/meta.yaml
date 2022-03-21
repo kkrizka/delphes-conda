@@ -1,0 +1,17 @@
+package:
+  name: delphes
+  version: 3.5.0
+
+source:
+  git_rev: 3.5.0
+  git_url: https://github.com/delphes/delphes
+
+requirements:
+  build:
+    - cmake
+  host:
+    - root
+    
+
+about:
+  home: http://cp3.irmp.ucl.ac.be/projects/delphes
